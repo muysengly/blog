@@ -18,12 +18,12 @@
   identifier = "learn-program"
 
 
-# [[main]]
-#   name = "Python 2"
-#   weight = 3.1
-#   identifier = "python-2"
-#   url = "/python2/markdowns/"
-#   parent = "learn-program"
+[[main]]
+  name = "Python 2"
+  weight = 3.1
+  identifier = "python-2"
+  url = "/python2/data/markdowns/aaa/"
+  parent = "learn-program"
 
 
 
