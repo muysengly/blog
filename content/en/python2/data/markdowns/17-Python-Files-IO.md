@@ -1,5 +1,5 @@
 ---
-title: "Python - Files I/O"
+title: "Files I/O"
 description: "This chapter..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

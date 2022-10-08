@@ -1,5 +1,5 @@
 ---
-title: "Python - Strings"
+title: "Strings"
 description: "Strings are..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

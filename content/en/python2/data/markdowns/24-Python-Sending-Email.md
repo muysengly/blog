@@ -1,6 +1,6 @@
 ---
-title: "Python - Sending Email using SMTP"
-description: " "
+title: "Sending Email"
+description: "Simple Mail..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

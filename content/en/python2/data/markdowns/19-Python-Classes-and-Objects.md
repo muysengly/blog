@@ -1,5 +1,5 @@
 ---
-title: "Python - Object Oriented"
+title: "Object Oriented"
 description: "Python has..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

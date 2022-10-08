@@ -1,5 +1,5 @@
 ---
-title: "Python - MySQL Database Access"
+title: "MySQL Database Access"
 description: "The Python..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

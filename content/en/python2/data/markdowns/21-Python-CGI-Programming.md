@@ -1,5 +1,5 @@
 ---
-title: "Python - CGI Programming"
+title: "CGI Programming"
 description: "The Common..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

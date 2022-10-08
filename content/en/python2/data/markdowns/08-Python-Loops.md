@@ -1,5 +1,5 @@
 ---
-title: "Python - Loops"
+title: "Loops"
 description: "In general..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

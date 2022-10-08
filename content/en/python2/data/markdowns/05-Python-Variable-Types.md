@@ -1,5 +1,5 @@
 ---
-title: "Python - Variable Types"
+title: "Variable Types"
 description: "Variables are..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

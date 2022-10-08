@@ -1,6 +1,6 @@
 ---
-title: "Python - Extension Programming with C"
-description: " "
+title: "Further Extension"
+description: "Any code..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

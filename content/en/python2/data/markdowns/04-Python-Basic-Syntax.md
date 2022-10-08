@@ -1,6 +1,6 @@
 ---
-title: "Python - Basic Syntax"
-description: "The Python language has many..."
+title: "Basic Syntax"
+description: "The Python..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

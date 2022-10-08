@@ -1,6 +1,6 @@
 ---
-title: "Python - Multithreaded Programming"
-description: " "
+title: "Multithreaded Programming"
+description: "Running several..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

@@ -1,5 +1,5 @@
 ---
-title: "Python - Functions"
+title: "Functions"
 description: "A function..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

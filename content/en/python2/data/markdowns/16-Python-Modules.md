@@ -1,5 +1,5 @@
 ---
-title: "Python - Modules"
+title: "Modules"
 description: "A module..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00

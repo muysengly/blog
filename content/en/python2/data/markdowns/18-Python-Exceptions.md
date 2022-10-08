@@ -1,5 +1,5 @@
 ---
-title: "Python - Exceptions Handling"
+title: "Exceptions Handling"
 description: "Python provides..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
