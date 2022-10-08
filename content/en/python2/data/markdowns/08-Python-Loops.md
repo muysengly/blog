@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Python - Loops"
 description: ""
 lead: ""
 date: 2022-01-25T14:41:39+01:00
@@ -10,11 +10,6 @@ type: docs
 toc: true
 weight: 1
 ---
-
-
-# Python - Loops
-
-------
 
 In general, statements are executed sequentially: The first statement in a function is executed first, followed by the second, and so on. There may be a situation when you need to execute a block of code several number of times.
 
