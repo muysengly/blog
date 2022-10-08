@@ -1,6 +1,6 @@
 ---
 title: "Python - Tutorial"
-description: ""
+description: "**Python** is a general-purpose interpreted..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

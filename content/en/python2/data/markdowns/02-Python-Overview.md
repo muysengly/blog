@@ -1,6 +1,6 @@
 ---
 title: "Python - Overview"
-description: ""
+description: "Python is a high-level, interpreted,..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

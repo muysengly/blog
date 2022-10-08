@@ -1,6 +1,6 @@
 ---
 title: "Python - MySQL Database Access"
-description: ""
+description: "The Python..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00

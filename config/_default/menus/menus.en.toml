@@ -26,9 +26,6 @@
   parent = "learn-program"
 
 
-
-
-
 [[main]]
   name = "Get Started"
   weight = 99.0

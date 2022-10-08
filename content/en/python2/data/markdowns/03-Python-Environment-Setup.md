@@ -1,6 +1,6 @@
 ---
 title: "Python - Environment Setup"
-description: ""
+description: "Python is available on a wide..."
 lead: ""
 date: 2022-01-25T14:41:39+01:00
 lastmod: 2022-01-25T14:41:39+01:00
