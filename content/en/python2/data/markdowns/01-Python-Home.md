@@ -39,7 +39,7 @@ Following are important characteristics of **Python Programming** −
 
 Just to give you a little excitement about Python, I'm going to give you a small conventional Python Hello World program, You can try it using Demo link.
 
-```
+```python
 print ("Hello, Python!");
 ```
 
