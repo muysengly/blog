@@ -129,7 +129,7 @@ Enter **python** the command line.
 
 Start coding right away in the interactive interpreter.
 
-```
+```bash
 $python # Unix/Linux
 or
 python% # Unix/Linux
@@ -153,7 +153,7 @@ Here is the list of all the available command line options −
 
 A Python script can be executed at command line by invoking the interpreter on your application, as in the following −
 
-```
+```bash
 $python script.py # Unix/Linux
 
 or

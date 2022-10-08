@@ -22,7 +22,7 @@ Let us execute programs in different modes of programming.
 
 Invoking the interpreter without passing a script file as a parameter brings up the following prompt −
 
-```
+```bash
 $ python
 Python 2.4.3 (#1, Nov 11 2010, 13:34:43)
 [GCC 4.1.2 20080704 (Red Hat 4.1.2-48)] on linux2
@@ -32,13 +32,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Type the following text at the Python prompt and press the Enter −
 
-```
+```bash
 >>> print "Hello, Python!"
 ```
 
 If you are running new version of Python, then you would need to use print statement with parenthesis as in **print ("Hello, Python!");**. However in Python version 2.4.3, this produces the following result −
 
-```
+```bash
 Hello, Python!
 ```
 
@@ -48,29 +48,29 @@ Invoking the interpreter with a script parameter begins execution of the script 
 
 Let us write a simple Python program in a script. Python files have extension **.py**. Type the following source code in a test.py file −
 
-[ Live Demo](http://tpcg.io/lsYEBf)
+[Live Demo](http://tpcg.io/lsYEBf)
 
-```
+```bash
 print "Hello, Python!"
 ```
 
 We assume that you have Python interpreter set in PATH variable. Now, try to run this program as follows −
 
-```
-$ python test.py
+```bash
+python test.py
 ```
 
 This produces the following result −
 
-```
+```bash
 Hello, Python!
 ```
 
 Let us try another way to execute a Python script. Here is the modified test.py file −
 
-[ Live Demo](http://tpcg.io/2hIf1p)
+[Live Demo](http://tpcg.io/2hIf1p)
 
-```
+```bash
 #!/usr/bin/python
 
 print "Hello, Python!"
@@ -78,14 +78,14 @@ print "Hello, Python!"
 
 We assume that you have Python interpreter available in /usr/bin directory. Now, try to run this program as follows −
 
-```
+```bash
 $ chmod +x test.py     # This is to make file executable
 $./test.py
 ```
 
 This produces the following result −
 
-```
+```bash
 Hello, Python!
 ```
 
@@ -124,7 +124,7 @@ Python provides no braces to indicate blocks of code for class and function defi
 
 The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For example −
 
-```
+```bash
 if True:
 print "True"
 else:
@@ -133,7 +133,7 @@ print "False"
 
 However, the following block generates an error −
 
-```
+```bash
 if True:
 print "Answer"
 print "True"
@@ -146,7 +146,7 @@ Thus, in Python all the continuous lines indented with same number of spaces wou
 
 **Note** − Do not try to understand the logic at this point of time. Just make sure you understood various blocks even if they are without braces.
 
-```
+```bash
 #!/usr/bin/python
 
 import sys
@@ -186,7 +186,7 @@ print file_text
 
 Statements in Python typically end with a new line. Python does, however, allow the use of the line continuation character (\) to denote that the line should continue. For example −
 
-```
+```bash
 total = item_one + \
 item_two + \
 item_three
@@ -194,7 +194,7 @@ item_three
 
 Statements contained within the [], {}, or () brackets do not need to use the line continuation character. For example −
 
-```
+```bash
 days = ['Monday', 'Tuesday', 'Wednesday',
 'Thursday', 'Friday']
 ```
@@ -205,7 +205,7 @@ Python accepts single ('), double (") and triple (''' or """) quotes to denote s
 
 The triple quotes are used to span the string across multiple lines. For example, all the following are legal −
 
-```
+```bash
 word = 'word'
 sentence = "This is a sentence."
 paragraph = """This is a paragraph. It is
@@ -216,9 +216,9 @@ made up of multiple lines and sentences."""
 
 A hash sign (#) that is not inside a string literal begins a comment. All characters after the # and up to the end of the physical line are part of the comment and the Python interpreter ignores them.
 
-[ Live Demo](http://tpcg.io/VgbqMb)
+[Live Demo](http://tpcg.io/VgbqMb)
 
-```
+```bash
 #!/usr/bin/python
 
 # First comment
@@ -227,19 +227,19 @@ print "Hello, Python!" # second comment
 
 This produces the following result −
 
-```
+```bash
 Hello, Python!
 ```
 
 You can type a comment on the same line after a statement or expression −
 
-```
+```bash
 name = "Madisetti" # This is again comment
 ```
 
 You can comment multiple lines as follows −
 
-```
+```bash
 # This is a comment.
 # This is a comment, too.
 # This is a comment, too.
@@ -248,7 +248,7 @@ You can comment multiple lines as follows −
 
 Following triple-quoted string is also ignored by Python interpreter and can be used as a multiline comments:
 
-```
+```bash
 '''
 This is a multiline
 comment.
@@ -265,7 +265,7 @@ In an interactive interpreter session, you must enter an empty physical line to 
 
 The following line of the program displays the prompt, the statement saying “Press the enter key to exit”, and waits for the user to take action −
 
-```
+```bash
 #!/usr/bin/python
 
 raw_input("\n\nPress the enter key to exit.")
@@ -277,7 +277,7 @@ Here, "\n\n" is used to create two new lines before displaying the actual line. 
 
 The semicolon ( ; ) allows multiple statements on the single line given that neither statement starts a new code block. Here is a sample snip using the semicolon −
 
-```
+```bash
 import sys; x = 'foo'; sys.stdout.write(x + '\n')
 ```
 
@@ -287,7 +287,7 @@ A group of individual statements, which make a single code block are called **su
 
 Header lines begin the statement (with the keyword) and terminate with a colon ( : ) and are followed by one or more lines which make up the suite. For example −
 
-```
+```bash
 if expression :
 suite
 elif expression :
@@ -300,7 +300,7 @@ suite
 
 Many programs can be run to provide you with some basic information about how they should be run. Python enables you to do this with -h −
 
-```
+```bash
 $ python -h
 usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
 Options and arguments (and corresponding environment variables):
