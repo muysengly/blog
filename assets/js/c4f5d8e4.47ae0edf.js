@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([[634],{192:(e,l,r)=>{r.r(l),r.d(l,{default:()=>c});r(6540);var s=r(7823),n=r(4848);function c(){return(0,n.jsxs)(s.A,{children:[(0,n.jsx)("h1",{children:"Home Page"}),(0,n.jsx)("div",{children:" Hello World! "})]})}}}]);
