@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/blog/",
 
   lang: "en-US",
-  title: "My Website",
-  description: "This is my website.",
+  title: "Home",
+  description: "Welcom to my website.",
 
   theme,
 

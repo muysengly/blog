@@ -12,6 +12,7 @@ import SiteInfo from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vue
 import StackBlitz from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
 import VPBanner from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/VPBanner.js";
 import VPCard from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import VidStack from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/VidStack.js";
 import XiGua from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
 
 import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
@@ -29,6 +30,7 @@ export default {
     if(!hasGlobalComponent("StackBlitz")) app.component("StackBlitz", StackBlitz);
     if(!hasGlobalComponent("VPBanner")) app.component("VPBanner", VPBanner);
     if(!hasGlobalComponent("VPCard")) app.component("VPCard", VPCard);
+    if(!hasGlobalComponent("VidStack")) app.component("VidStack", VidStack);
     if(!hasGlobalComponent("XiGua")) app.component("XiGua", XiGua);
     
   },

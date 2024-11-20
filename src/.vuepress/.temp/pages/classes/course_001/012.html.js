@@ -1,0 +1,16 @@
+import comp from "C:/Users/muysengly/Desktop/My Github/blog/src/.vuepress/.temp/pages/classes/course_001/012.html.vue"
+const data = JSON.parse("{\"path\":\"/classes/course_001/012.html\",\"title\":\"12. Tuples\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"12. Tuples\",\"description\":\"A tuple...\",\"lead\":\"\",\"date\":\"2022-01-25T13:41:39.000Z\",\"lastmod\":\"2022-01-25T13:41:39.000Z\",\"draft\":false,\"images\":[],\"type\":\"docs\",\"toc\":true,\"weight\":12,\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-docs-demo.netlify.app/blog/classes/course_001/012.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"My Website\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"12. Tuples\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"A tuple...\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2022-01-25T13:41:39.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"12. Tuples\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2022-01-25T13:41:39.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Sengly MUY\\\"}]}\"]]},\"headers\":[{\"level\":2,\"title\":\"Accessing Values in Tuples\",\"slug\":\"accessing-values-in-tuples\",\"link\":\"#accessing-values-in-tuples\",\"children\":[]},{\"level\":2,\"title\":\"Updating Tuples\",\"slug\":\"updating-tuples\",\"link\":\"#updating-tuples\",\"children\":[]},{\"level\":2,\"title\":\"Delete Tuple Elements\",\"slug\":\"delete-tuple-elements\",\"link\":\"#delete-tuple-elements\",\"children\":[]},{\"level\":2,\"title\":\"Basic Tuples Operations\",\"slug\":\"basic-tuples-operations\",\"link\":\"#basic-tuples-operations\",\"children\":[]},{\"level\":2,\"title\":\"Indexing, Slicing, and Matrixes\",\"slug\":\"indexing-slicing-and-matrixes\",\"link\":\"#indexing-slicing-and-matrixes\",\"children\":[]},{\"level\":2,\"title\":\"No Enclosing Delimiters\",\"slug\":\"no-enclosing-delimiters\",\"link\":\"#no-enclosing-delimiters\",\"children\":[]},{\"level\":2,\"title\":\"Built-in Tuple Functions\",\"slug\":\"built-in-tuple-functions\",\"link\":\"#built-in-tuple-functions\",\"children\":[]}],\"readingTime\":{\"minutes\":2.5,\"words\":750},\"filePathRelative\":\"classes/course_001/012.md\",\"localizedDate\":\"January 25, 2022\",\"excerpt\":\"<p>A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.</p>\\n<p>Creating a tuple is as simple as putting different comma-separated values. Optionally you can put these comma-separated values between parentheses also. For example −</p>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

@@ -1,1 +1,1 @@
-export const store = ["/","/blogs/001.html"];
+export const store = ["/pages/001.html","/pages/strawberry.html","/demo.html"];
