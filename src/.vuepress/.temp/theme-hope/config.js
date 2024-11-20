@@ -1,15 +1,15 @@
-import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/export.js";
+import { HopeIcon, Layout, NotFound, injectDarkmode, setupDarkmode, setupSidebarItems, scrollPromise } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineCatalogInfoGetter } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
+import { defineCatalogInfoGetter } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/@vuepress/plugin-catalog/lib/client/index.js"
 import { h } from "vue"
-import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
-import { GlobalEncrypt, LocalEncrypt } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
+import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/@vuepress/helper/lib/client/styles/colors.css";
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/@vuepress/helper/lib/client/styles/colors.css";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-theme-hope/lib/bundle/styles/all.scss";
 
 defineCatalogInfoGetter((meta) => {
   const title = meta.t;

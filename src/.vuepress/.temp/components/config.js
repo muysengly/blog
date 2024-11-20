@@ -1,20 +1,20 @@
-import { hasGlobalComponent } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/@vuepress/helper/lib/client/index.js";
+import { hasGlobalComponent } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/@vuepress/helper/lib/client/index.js";
 
-import { useScriptTag } from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import ArtPlayer from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
-import Badge from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import BiliBili from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
-import CodePen from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
-import PDF from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
-import Share from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
-import SiteInfo from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
-import StackBlitz from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
-import VPBanner from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/VPBanner.js";
-import VPCard from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
-import XiGua from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
+import { useScriptTag } from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import ArtPlayer from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
+import Badge from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import BiliBili from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
+import CodePen from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
+import PDF from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
+import Share from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
+import SiteInfo from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
+import StackBlitz from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
+import VPBanner from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/VPBanner.js";
+import VPCard from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import XiGua from "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
 
-import "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "C:/Users/muysengly/Desktop/My Github/blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default {
   enhance: ({ app }) => {

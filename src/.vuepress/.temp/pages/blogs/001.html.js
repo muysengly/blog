@@ -1,16 +1,3 @@
-import comp from "C:/Users/muysengly/Desktop/Vue Press/my_site_002 update some - Copy/src/.vuepress/.temp/pages/blogs/001.html.vue"
-const data = JSON.parse("{\"path\":\"/blogs/001.html\",\"title\":\"My page\",\"lang\":\"en-US\",\"frontmatter\":{\"description\":\"My page Page 001\",\"gitInclude\":[],\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-docs-demo.netlify.app/blog/blogs/001.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"My Website\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"My page\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"My page Page 001\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"My page\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Sengly MUY\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.01,\"words\":4},\"filePathRelative\":\"blogs/001.md\",\"excerpt\":\"\\n<p>Page 001</p>\\n\",\"autoDesc\":true}")
+import comp from "C:/Users/muysengly/Desktop/My Github/blog/src/.vuepress/.temp/pages/blogs/001.html.vue"
+const data = JSON.parse("{\"path\":\"/blogs/001.html\",\"title\":\"My page\",\"lang\":\"en-US\",\"frontmatter\":{\"description\":\"My page Page 001\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://vuepress-theme-hope-docs-demo.netlify.app/blog/blogs/001.html\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"My Website\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"My page\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"My page Page 001\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"en-US\"}],[\"meta\",{\"property\":\"og:updated_time\",\"content\":\"2024-11-20T04:45:30.000Z\"}],[\"meta\",{\"property\":\"article:modified_time\",\"content\":\"2024-11-20T04:45:30.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"My page\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":\\\"2024-11-20T04:45:30.000Z\\\",\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"Sengly MUY\\\"}]}\"]]},\"headers\":[],\"git\":{\"createdTime\":1732077930000,\"updatedTime\":1732077930000,\"contributors\":[{\"name\":\"MUY SENGLY\",\"email\":\"muysengly@gmail.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.01,\"words\":4},\"filePathRelative\":\"blogs/001.md\",\"localizedDate\":\"November 20, 2024\",\"excerpt\":\"\\n<p>Page 001</p>\\n\",\"autoDesc\":true}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
