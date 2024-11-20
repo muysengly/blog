@@ -12,12 +12,16 @@ export default hopeTheme({
     // url: "https://mister-hope.com",
   },
 
+  // this website icon assets
   iconAssets: "fontawesome-with-brands",
 
+  // this website logo
   logo: "logo.png",
 
+  // this website repository
   repo: "muysengly/blog",
 
+  // this website docs directory
   docsDir: "src",
 
   // navbar
