@@ -1,8 +1,6 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  // "/",
-  // "/blog/",
   {
     text: "Blog",
     link: "/article/",
@@ -29,6 +27,5 @@ export default navbar([
     link: "/books/",
     icon: "book",
   },
-  
   "/contact_me",
 ]);

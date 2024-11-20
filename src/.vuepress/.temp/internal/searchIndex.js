@@ -22,6 +22,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "My page",
+    "headers": [],
+    "path": "/blogs/001.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Schaum 001",
     "headers": [],
     "path": "/books/Schaum%20001.html",
@@ -32,13 +39,6 @@ export const SEARCH_INDEX = [
     "title": "Schaum 002",
     "headers": [],
     "path": "/books/Schaum%20002.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "My page",
-    "headers": [],
-    "path": "/blogs/001.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -2540,13 +2540,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "slide",
-    "headers": [],
-    "path": "/slide/slide_001/slide.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "1. Introduction",
     "headers": [
       {
@@ -3016,6 +3009,13 @@ export const SEARCH_INDEX = [
   {
     "title": "slide",
     "headers": [],
+    "path": "/slide/slide_001/slide.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "slide",
+    "headers": [],
     "path": "/slide/slide_002/slide.html",
     "pathLocale": "/",
     "extraFields": []
@@ -3028,16 +3028,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Books",
+    "title": "Blogs",
     "headers": [],
-    "path": "/books/",
+    "path": "/blogs/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Blogs",
+    "title": "Books",
     "headers": [],
-    "path": "/blogs/",
+    "path": "/books/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -3056,6 +3056,13 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Course 002",
+    "headers": [],
+    "path": "/docs/course_002/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Slide 001",
     "headers": [],
     "path": "/slide/slide_001/",
@@ -3066,13 +3073,6 @@ export const SEARCH_INDEX = [
     "title": "Slide",
     "headers": [],
     "path": "/slide/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Course 002",
-    "headers": [],
-    "path": "/docs/course_002/",
     "pathLocale": "/",
     "extraFields": []
   },

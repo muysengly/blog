@@ -1,11 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  // https://muysengly.github.io/
 
   author: {
     name: "Sengly MUY",
@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "logo.png",
 
-  repo: "muysengly",
+  repo: "muysengly/blog",
 
   docsDir: "src",
 
@@ -46,17 +46,17 @@ export default hopeTheme({
       // option
       filter: ({ filePathRelative, frontmatter }) => {
         // drop those pages which is NOT generated from file
-        if (!filePathRelative) return false
+        if (!filePathRelative) return false;
 
         // drop those pages in `archives` directory
-        if (filePathRelative.startsWith('books/')) return false
-        if (filePathRelative.startsWith('docs/')) return false
-        if (filePathRelative.startsWith('slide/')) return false
+        if (filePathRelative.startsWith("books/")) return false;
+        if (filePathRelative.startsWith("docs/")) return false;
+        if (filePathRelative.startsWith("slide/")) return false;
 
         // drop those pages which do not use default layout
-        if (frontmatter.home || frontmatter.layout) return false
+        if (frontmatter.home || frontmatter.layout) return false;
 
-        return true
+        return true;
       },
     },
 
@@ -160,7 +160,6 @@ export default hopeTheme({
       // install flowchart.ts before enabling it
       flowchart: true,
 
-
       markmap: true,
 
       // gfm requires mathjax-full to provide tex support
@@ -168,9 +167,6 @@ export default hopeTheme({
 
       // install mermaid before enabling it
       mermaid: true,
-
-      
-
 
       // playground: {
       //   presets: ["ts", "vue"],
@@ -244,14 +240,7 @@ export default hopeTheme({
     revealjs: {
       plugins: ["highlight", "math", "search", "notes", "zoom"],
     },
-
-  
-
   },
-
-  
-
-  
 
   darkmode: "toggle",
   // fullscreen: true,
