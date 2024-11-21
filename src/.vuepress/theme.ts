@@ -4,59 +4,66 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-  // https://muysengly.github.io/
+  // Domain which to be deployed to
+  hostname: "https://muysengly.github.io/blog",
 
+  // Global default license
+  license: "MIT",
+
+  // Global default author
   author: {
     name: "Sengly MUY",
-    // url: "https://mister-hope.com",
+    url: "https://github.com/muysengly",
+    email: "muysengly@gmail.com",
   },
 
-  // this website icon assets
+  // Link of font icon asset
   iconAssets: "fontawesome-with-brands",
 
-  // this website logo
+  // Navbar logo
   logo: "logo.png",
 
-  // this website repository
+  // Repository link
   repo: "muysengly/blog",
 
-  // this website docs directory
+  // Docs dir location in repo
   docsDir: "src",
 
-  // navbar
+  // Navbar config
   navbar,
 
-  // sidebar
+  // Navbar config
   sidebar,
 
   // footer: "Default footer",
-
   // displayFooter: true,
+  // Whether to display footer by default
   displayFooter: false,
 
+  // Whether to display footer by default
+  //
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/demo/encrypt": ["1234"],
     },
   },
 
+  // Meta related i18n config
   metaLocales: {
     editLink: "Edit this page on GitHub",
   },
 
   plugins: {
-    
     blog: {
       // option
       filter: ({ filePathRelative, frontmatter }) => {
         // drop those pages which is NOT generated from file
         if (!filePathRelative) return false;
 
-        // drop those pages in `archives` directory
+        // drop those pages
         if (filePathRelative.startsWith("classes/")) return false;
         if (filePathRelative.startsWith("documents/")) return false;
-        // if (filePathRelative.startsWith("slide/")) return false;
+        if (filePathRelative.startsWith("demo/")) return false;
 
         // drop those pages which do not use default layout
         if (frontmatter.home || frontmatter.layout) return false;
@@ -70,24 +77,19 @@ export default hopeTheme({
       maxSuggestions: 10,
     },
 
-    // notice: {
-    // },
-
-    // appendDatePlugin: {},
-
     watermark: {
       // option
-      enabled:false,
+      enabled: false,
     },
 
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      repo: "muysengly/blog",
+      repoId: "R_kgDOIKiZFw",
+      category: "General",
+      categoryId: "DIC_kwDOIKiZF84Ckdvb",
     },
 
     components: {
@@ -126,7 +128,6 @@ export default hopeTheme({
 
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
-
       footnote: true,
       align: true,
       attrs: true,

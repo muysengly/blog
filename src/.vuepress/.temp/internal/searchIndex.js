@@ -23,239 +23,110 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Demo",
+    "title": "Contact Me",
+    "headers": [],
+    "path": "/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Disabling layout and features",
+    "headers": [],
+    "path": "/demo/disable.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Layout",
+    "headers": [],
+    "path": "/demo/layout.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Markdown Enhance",
     "headers": [
       {
         "level": 2,
-        "title": "Hes He",
-        "slug": "hes-he",
-        "link": "#hes-he",
+        "title": "Markdown Introduction",
+        "slug": "markdown-introduction",
+        "link": "#markdown-introduction",
         "children": []
       },
       {
         "level": 2,
-        "title": "Description",
-        "slug": "description",
-        "link": "#description",
-        "children": [
-          {
-            "level": 3,
-            "title": "Experience",
-            "slug": "experience",
-            "link": "#experience",
-            "children": []
-          }
-        ]
+        "title": "Markdown Config",
+        "slug": "markdown-config",
+        "link": "#markdown-config",
+        "children": []
       },
       {
         "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
+        "title": "Markdown Extension",
+        "slug": "markdown-extension",
+        "link": "#markdown-extension",
         "children": [
           {
             "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Basic Syntax",
-        "slug": "basic-syntax",
-        "link": "#basic-syntax",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading",
-            "slug": "heading",
-            "link": "#heading",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "H2",
-        "slug": "h2",
-        "link": "#h2",
-        "children": [
-          {
-            "level": 3,
-            "title": "H3",
-            "slug": "h3",
-            "link": "#h3",
+            "title": "VuePress Enhancement",
+            "slug": "vuepress-enhancement",
+            "link": "#vuepress-enhancement",
             "children": []
           },
           {
             "level": 3,
-            "title": "Bold",
-            "slug": "bold",
-            "link": "#bold",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Italic",
-            "slug": "italic",
-            "link": "#italic",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Blockquote",
-            "slug": "blockquote",
-            "link": "#blockquote",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Ordered List",
-            "slug": "ordered-list",
-            "link": "#ordered-list",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Unordered List",
-            "slug": "unordered-list",
-            "link": "#unordered-list",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Code",
-            "slug": "code",
-            "link": "#code",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Horizontal Rule",
-            "slug": "horizontal-rule",
-            "link": "#horizontal-rule",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Link",
-            "slug": "link",
-            "link": "#link",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Image",
-            "slug": "image",
-            "link": "#image",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Extended Syntax",
-        "slug": "extended-syntax",
-        "link": "#extended-syntax",
-        "children": [
-          {
-            "level": 3,
-            "title": "Table",
-            "slug": "table",
-            "link": "#table",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Fenced Code Block",
-            "slug": "fenced-code-block",
-            "link": "#fenced-code-block",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Footnote",
-            "slug": "footnote",
-            "link": "#footnote",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Heading ID",
-            "slug": "heading-id",
-            "link": "#heading-id",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "My Great Heading",
-            "slug": "custom-id",
-            "link": "#custom-id",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Definition List",
-            "slug": "definition-list",
-            "link": "#definition-list",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Strikethrough",
-            "slug": "strikethrough",
-            "link": "#strikethrough",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Task List",
-            "slug": "task-list",
-            "link": "#task-list",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Emoji",
-            "slug": "emoji",
-            "link": "#emoji",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Highlight",
-            "slug": "highlight",
-            "link": "#highlight",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Subscript",
-            "slug": "subscript",
-            "link": "#subscript",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Superscript",
-            "slug": "superscript",
-            "link": "#superscript",
+            "title": "Theme Enhancement",
+            "slug": "theme-enhancement",
+            "link": "#theme-enhancement",
             "children": []
           }
         ]
       }
     ],
-    "path": "/demo.html",
+    "path": "/demo/markdown.html",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Contact Me",
+    "title": "Page Config",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Page Title",
+        "slug": "page-title",
+        "link": "#page-title",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Information",
+        "slug": "page-information",
+        "link": "#page-information",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Content",
+        "slug": "page-content",
+        "link": "#page-content",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Components",
+        "slug": "components",
+        "link": "#components",
+        "children": []
+      }
+    ],
+    "path": "/demo/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Features demo",
     "headers": [],
-    "path": "/",
+    "path": "/demo/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -281,6 +152,88 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Cherry",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/cherry.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dragon Fruit",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/dragonfruit.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Page Config",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Page Title",
+        "slug": "page-title",
+        "link": "#page-title",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Information",
+        "slug": "page-information",
+        "link": "#page-information",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Page Content",
+        "slug": "page-content",
+        "link": "#page-content",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Components",
+        "slug": "components",
+        "link": "#components",
+        "children": []
+      }
+    ],
+    "path": "/pages/page.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Strawberry",
     "headers": [
       {
@@ -300,6 +253,29 @@ export const SEARCH_INDEX = [
       }
     ],
     "path": "/pages/strawberry.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tomato",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/tomato.html",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -433,6 +409,190 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Apple 1",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/apple/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Apple 2",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/apple/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Apple 3",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/apple/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Apple 4",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/apple/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 1",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/banana/1.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 2",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/banana/2.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 3",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/banana/3.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana 4",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/pages/banana/4.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/404.html",
@@ -475,6 +635,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Apple",
+    "headers": [],
+    "path": "/pages/apple/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana",
+    "headers": [],
+    "path": "/pages/banana/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Category",
     "headers": [],
     "path": "/category/",
@@ -496,6 +670,20 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Cherry Category",
+    "headers": [],
+    "path": "/category/cherry/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dragon Fruit Category",
+    "headers": [],
+    "path": "/category/dragon-fruit/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Fruit Category",
     "headers": [],
     "path": "/category/fruit/",
@@ -503,9 +691,37 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "Guide Category",
+    "headers": [],
+    "path": "/category/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Strawberry Category",
     "headers": [],
     "path": "/category/strawberry/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Vegetable Category",
+    "headers": [],
+    "path": "/category/vegetable/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Apple Category",
+    "headers": [],
+    "path": "/category/apple/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Banana Category",
+    "headers": [],
+    "path": "/category/banana/",
     "pathLocale": "/",
     "extraFields": []
   },
@@ -541,6 +757,55 @@ export const SEARCH_INDEX = [
     "title": "Tag: small",
     "headers": [],
     "path": "/tag/small/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: round",
+    "headers": [],
+    "path": "/tag/round/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: big",
+    "headers": [],
+    "path": "/tag/big/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: Page config",
+    "headers": [],
+    "path": "/tag/page-config/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: Guide",
+    "headers": [],
+    "path": "/tag/guide/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: yellow",
+    "headers": [],
+    "path": "/tag/yellow/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: curly",
+    "headers": [],
+    "path": "/tag/curly/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tag: long",
+    "headers": [],
+    "path": "/tag/long/",
     "pathLocale": "/",
     "extraFields": []
   },

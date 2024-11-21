@@ -11,8 +11,6 @@ tag:
 
 # Strawberry
 
-<!-- more -->
-
 ## Heading 2
 
 Here is the content.

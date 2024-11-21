@@ -1,7 +1,12 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-    {
+  {
+    text: "Home",
+    link: "/",
+    icon: "home",
+  },
+  {
     text: "Classes",
     icon: "book",
     children: [
@@ -38,9 +43,25 @@ export default navbar([
     link: "/article/",
     icon: "newspaper",
   },
+  // {
+  //   text: "Languages",
+  //   icon: "globe",
+  //   children: [
+  //     {
+  //       text: "English",
+  //       link: "/",
+  //       icon: "globe",
+  //     },
+  //     {
+  //       text: "Khmer",
+  //       link: "/kh/",
+  //       icon: "globe",
+  //     },
+  //   ],
+  // },
   {
     text: "Demo",
-    link: "/demo",
+    link: "/demo/",
     icon: "download",
   },
 ]);

@@ -16,6 +16,7 @@
     "@vuepress/plugin-photo-swipe": "^2.0.0-rc.60",
     "@vuepress/plugin-revealjs": "^2.0.0-rc.60",
     "@vuepress/plugin-search": "^2.0.0-rc.55",
+    "@waline/client": "^3.3.2",
     "artplayer": "^5.2.1",
     "chart.js": "^4.4.6",
     "echarts": "^5.5.1",
