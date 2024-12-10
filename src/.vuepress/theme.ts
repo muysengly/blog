@@ -62,8 +62,7 @@ export default hopeTheme({
 
         // drop those pages
         if (filePathRelative.startsWith("classes/")) return false;
-        if (filePathRelative.startsWith("documents/")) return false;
-        if (filePathRelative.startsWith("demo/")) return false;
+        if (filePathRelative.startsWith("others/")) return false;
 
         // drop those pages which do not use default layout
         if (frontmatter.home || frontmatter.layout) return false;

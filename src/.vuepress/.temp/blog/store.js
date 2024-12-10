@@ -1,1 +1,1 @@
-export const store = ["/pages/001.html","/pages/cherry.html","/pages/dragonfruit.html","/pages/strawberry.html","/pages/banana/2.html","/pages/banana/1.html","/pages/apple/4.html","/pages/apple/3.html","/pages/page.html","/pages/tomato.html","/pages/apple/2.html","/pages/apple/1.html","/pages/banana/4.html","/pages/banana/3.html"];
+export const store = ["/pages/20241210%20welcome%20page.html"];

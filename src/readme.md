@@ -1,7 +1,7 @@
 ---
 home: true
 portfolio: true
-title: Contact Me
+title: Home
 icon: home
 name: Sengly MUY
 avatar: avata.png

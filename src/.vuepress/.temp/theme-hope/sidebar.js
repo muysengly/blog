@@ -1,1 +1,1 @@
-export const sidebarData = {"/classes/course_001/":["001","002"],"/classes/course_002/":["001","slide"]};
+export const sidebarData = {"/classes/c_program/":[],"/classes/calculus/":[],"/classes/computer_scient/":[],"/classes/deep_neural_network/":[],"/classes/deep_reinforcement_learning/":[],"/classes/java/":[],"/classes/machine_learning/":[],"/classes/matlab/":[],"/classes/optimization/":[],"/classes/php/":[],"/classes/python/":["001","002"],"/classes/typescript/":[],"/classes/wireless_communication/":[]};
