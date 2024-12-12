@@ -42,11 +42,11 @@ export default hopeTheme({
 
   // Whether to display footer by default
   //
-  encrypt: {
-    config: {
-      "/demo/encrypt": ["1234"],
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/others/about": ["qwertyui"],
+  //   },
+  // },
 
   // Meta related i18n config
   metaLocales: {

@@ -2,7 +2,7 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"Home","i":"home"} }],
-  ["/others/about.html", { loader: () => import(/* webpackChunkName: "others_about.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/others/about.html.js"), meta: {"t":"About Me","i":"address-card"} }],
+  ["/others/about.html", { loader: () => import(/* webpackChunkName: "others_about.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/others/about.html.js"), meta: {"t":"My curriculum vitae (CV)","i":"address-card"} }],
   ["/others/demo.html", { loader: () => import(/* webpackChunkName: "others_demo.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/others/demo.html.js"), meta: {"t":"Demo Page","i":"file","O":1} }],
   ["/pages/20241210%20welcome%20page.html", { loader: () => import(/* webpackChunkName: "pages_20241210 welcome page.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/pages/20241210 welcome page.html.js"), meta: {"a":"Sengly MUY","d":1733788800000,"l":"December 10, 2024","c":["Welcome"],"g":["Welcome"],"u":false,"e":"<h2>Welcome to my website.</h2>\n","r":{"minutes":0.12,"words":37},"t":"Welcome Page","i":"file","O":1,"y":"a"} }],
   ["/classes/python/001.html", { loader: () => import(/* webpackChunkName: "classes_python_001.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/001.html.js"), meta: {"t":"001","i":"file","O":1} }],

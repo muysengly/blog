@@ -27,23 +27,6 @@ export default navbar([
       // },
     ],
   },
-  // {
-  //   text: "Files",
-  //   icon: "paperclip",
-  //   children: [
-  //     {
-  //       text: "Document 001",
-  //       link: "/documents/docs_001",
-  //       icon: "paperclip",
-  //     },
-  //     {
-  //       text: "Document 002",
-  //       link: "/documents/docs_002",
-  //       icon: "paperclip",
-  //     },
-  //   ],
-  // },
-
   {
     text: "About",
     link: "/others/about",
@@ -52,6 +35,6 @@ export default navbar([
   {
     text: "Demo",
     link: "/others/demo",
-    icon: "trash",
+    icon: "star",
   },
 ]);

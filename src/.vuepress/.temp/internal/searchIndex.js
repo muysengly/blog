@@ -7,8 +7,58 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "About Me",
-    "headers": [],
+    "title": "My curriculum vitae (CV)",
+    "headers": [
+      {
+        "level": 2,
+        "title": "My information",
+        "slug": "my-information",
+        "link": "#my-information",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "My experience",
+        "slug": "my-experience",
+        "link": "#my-experience",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "My education",
+        "slug": "my-education",
+        "link": "#my-education",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "My publication",
+        "slug": "my-publication",
+        "link": "#my-publication",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "My dissertation",
+        "slug": "my-dissertation",
+        "link": "#my-dissertation",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "My skill",
+        "slug": "my-skill",
+        "link": "#my-skill",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Other certificate",
+        "slug": "other-certificate",
+        "link": "#other-certificate",
+        "children": []
+      }
+    ],
     "path": "/others/about.html",
     "pathLocale": "/",
     "extraFields": []
