@@ -1,1 +1,1 @@
-export const siteData = JSON.parse("{\"base\":\"/blog/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"My Blog\",\"description\":\"Welcome to my blog.\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/blog/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"en-US\",\"title\":\"My Blog\",\"description\":\"Welcome to my blog.\",\"head\":[[\"link\",{\"rel\":\"shortcut icon\",\"href\":\"favicon.ico\"}]]}}}")
