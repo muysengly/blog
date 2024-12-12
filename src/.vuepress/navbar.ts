@@ -32,9 +32,9 @@ export default navbar([
     link: "/others/about",
     icon: "address-card",
   },
-  {
-    text: "Demo",
-    link: "/others/demo",
-    icon: "star",
-  },
+  // {
+  //   text: "Demo",
+  //   link: "/others/demo",
+  //   icon: "star",
+  // },
 ]);

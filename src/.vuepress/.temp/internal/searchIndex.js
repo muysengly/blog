@@ -64,35 +64,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Demo Page",
-    "headers": [
-      {
-        "level": 2,
-        "title": "My Information",
-        "slug": "my-information",
-        "link": "#my-information",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "My Achievements",
-        "slug": "my-achievements",
-        "link": "#my-achievements",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "My Educations",
-        "slug": "my-educations",
-        "link": "#my-educations",
-        "children": []
-      }
-    ],
-    "path": "/others/demo.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "Welcome Page",
     "headers": [
       {

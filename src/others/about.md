@@ -19,14 +19,18 @@ date: 2024-12-10
 ## My information
 <!-- @include: ./about.my_information.html -->
 
+
 ## My experience
 <!-- @include: ./about.my_work.html -->
+
 
 ## My education
 <!-- @include: ./about.my_education.html -->
 
+
 ## My publication
 <!-- @include: ./about.my_achievement.html -->
+
 
 ## My dissertation
 <!-- @include: ./about.my_dissertation.html -->
@@ -34,7 +38,6 @@ date: 2024-12-10
 
 ## My skill
 <!-- @include: ./about.my_skill.html -->
-
 
 
 ## Other certificate
