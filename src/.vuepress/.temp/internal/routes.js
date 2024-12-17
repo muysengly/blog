@@ -7,13 +7,6 @@ export const routes = Object.fromEntries([
   ["/classes/python/001.html", { loader: () => import(/* webpackChunkName: "classes_python_001.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/001.html.js"), meta: {"t":"1. Introduction","i":"book","O":1} }],
   ["/classes/python/002.html", { loader: () => import(/* webpackChunkName: "classes_python_002.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/002.html.js"), meta: {"t":"2. Overview","i":"book","O":2} }],
   ["/classes/python/", { loader: () => import(/* webpackChunkName: "classes_python_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/index.html.js"), meta: {"t":"Python Class","i":"book"} }],
-  ["/demo/002/001_template.html", { loader: () => import(/* webpackChunkName: "demo_002_001_template.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/001_template.html.js"), meta: {"t":"2.1. Template","i":"star","O":1} }],
-  ["/demo/002/cherry.html", { loader: () => import(/* webpackChunkName: "demo_002_cherry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/cherry.html.js"), meta: {"t":"Cherry","i":"star"} }],
-  ["/demo/002/dragonfruit.html", { loader: () => import(/* webpackChunkName: "demo_002_dragonfruit.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/dragonfruit.html.js"), meta: {"t":"Dragon Fruit","i":"star"} }],
-  ["/demo/002/example.html", { loader: () => import(/* webpackChunkName: "demo_002_example.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/example.html.js"), meta: {"t":"example","i":"star"} }],
-  ["/demo/002/", { loader: () => import(/* webpackChunkName: "demo_002_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/index.html.js"), meta: {"t":"2. Other Demo","i":"star"} }],
-  ["/demo/002/strawberry.html", { loader: () => import(/* webpackChunkName: "demo_002_strawberry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/strawberry.html.js"), meta: {"t":"Strawberry","i":"star"} }],
-  ["/demo/002/tomato.html", { loader: () => import(/* webpackChunkName: "demo_002_tomato.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/tomato.html.js"), meta: {"t":"Tomato","i":"star"} }],
   ["/demo/001/001.layout.html", { loader: () => import(/* webpackChunkName: "demo_001_001.layout.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/001.layout.html.js"), meta: {"t":"1. Layout","i":"object-group","O":1} }],
   ["/demo/001/002.markdown.html", { loader: () => import(/* webpackChunkName: "demo_001_002.markdown.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/002.markdown.html.js"), meta: {"t":"2. Markdown Enhance","i":"fab fa-markdown","O":2} }],
   ["/demo/001/003.page.html", { loader: () => import(/* webpackChunkName: "demo_001_003.page.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/003.page.html.js"), meta: {"t":"3. Page Config","i":"file","O":3} }],
@@ -29,6 +22,13 @@ export const routes = Object.fromEntries([
   ["/demo/001/013.html", { loader: () => import(/* webpackChunkName: "demo_001_013.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/013.html.js"), meta: {"t":"13. Image","i":"image","O":13} }],
   ["/demo/001/014.html", { loader: () => import(/* webpackChunkName: "demo_001_014.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/014.html.js"), meta: {"t":"14. Content","i":"pen","O":14} }],
   ["/demo/001/", { loader: () => import(/* webpackChunkName: "demo_001_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/index.html.js"), meta: {"t":"1. Features demo","i":"star"} }],
+  ["/demo/002/001_template.html", { loader: () => import(/* webpackChunkName: "demo_002_001_template.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/001_template.html.js"), meta: {"t":"2.1. Template","i":"star","O":1} }],
+  ["/demo/002/cherry.html", { loader: () => import(/* webpackChunkName: "demo_002_cherry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/cherry.html.js"), meta: {"t":"Cherry","i":"star"} }],
+  ["/demo/002/dragonfruit.html", { loader: () => import(/* webpackChunkName: "demo_002_dragonfruit.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/dragonfruit.html.js"), meta: {"t":"Dragon Fruit","i":"star"} }],
+  ["/demo/002/example.html", { loader: () => import(/* webpackChunkName: "demo_002_example.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/example.html.js"), meta: {"t":"example","i":"star"} }],
+  ["/demo/002/", { loader: () => import(/* webpackChunkName: "demo_002_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/index.html.js"), meta: {"t":"2. Other Demo","i":"star"} }],
+  ["/demo/002/strawberry.html", { loader: () => import(/* webpackChunkName: "demo_002_strawberry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/strawberry.html.js"), meta: {"t":"Strawberry","i":"star"} }],
+  ["/demo/002/tomato.html", { loader: () => import(/* webpackChunkName: "demo_002_tomato.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/tomato.html.js"), meta: {"t":"Tomato","i":"star"} }],
   ["/demo/002/002.002/1.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_1.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/1.html.js"), meta: {"t":"Apple 1","i":"star"} }],
   ["/demo/002/002.002/2.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_2.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/2.html.js"), meta: {"t":"Apple 2","i":"star"} }],
   ["/demo/002/002.002/3.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_3.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/3.html.js"), meta: {"t":"Apple 3","i":"star"} }],
@@ -52,20 +52,3 @@ export const routes = Object.fromEntries([
   ["/star/", { loader: () => import(/* webpackChunkName: "star_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"t":"Star","I":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"t":"Timeline","I":false} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}

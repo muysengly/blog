@@ -124,135 +124,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "2.1. Template",
-    "headers": [
-      {
-        "level": 2,
-        "title": "This is the header template",
-        "slug": "this-is-the-header-template",
-        "link": "#this-is-the-header-template",
-        "children": []
-      }
-    ],
-    "path": "/demo/002/001_template.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Cherry",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/002/cherry.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Dragon Fruit",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/002/dragonfruit.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "example",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Hello",
-        "slug": "hello",
-        "link": "#hello",
-        "children": []
-      }
-    ],
-    "path": "/demo/002/example.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. Other Demo",
-    "headers": [],
-    "path": "/demo/002/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Strawberry",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/002/strawberry.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Tomato",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Heading 2",
-        "slug": "heading-2",
-        "link": "#heading-2",
-        "children": [
-          {
-            "level": 3,
-            "title": "Heading 3",
-            "slug": "heading-3",
-            "link": "#heading-3",
-            "children": []
-          }
-        ]
-      }
-    ],
-    "path": "/demo/002/tomato.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "1. Layout",
     "headers": [],
     "path": "/demo/001/001.layout.html",
@@ -616,6 +487,135 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "2.1. Template",
+    "headers": [
+      {
+        "level": 2,
+        "title": "This is the header template",
+        "slug": "this-is-the-header-template",
+        "link": "#this-is-the-header-template",
+        "children": []
+      }
+    ],
+    "path": "/demo/002/001_template.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Cherry",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/002/cherry.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Dragon Fruit",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/002/dragonfruit.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "example",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Hello",
+        "slug": "hello",
+        "link": "#hello",
+        "children": []
+      }
+    ],
+    "path": "/demo/002/example.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. Other Demo",
+    "headers": [],
+    "path": "/demo/002/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Strawberry",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/002/strawberry.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Tomato",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Heading 2",
+        "slug": "heading-2",
+        "link": "#heading-2",
+        "children": [
+          {
+            "level": 3,
+            "title": "Heading 3",
+            "slug": "heading-3",
+            "link": "#heading-3",
+            "children": []
+          }
+        ]
+      }
+    ],
+    "path": "/demo/002/tomato.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Apple 1",
     "headers": [
       {
@@ -898,16 +898,3 @@ export const SEARCH_INDEX = [
     "extraFields": []
   }
 ]
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ searchIndex }) => {
-    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
-  })
-}
