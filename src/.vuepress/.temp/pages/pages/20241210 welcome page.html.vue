@@ -1,6 +1,6 @@
-<template><div><h2 id="welcome-to-my-website" tabindex="-1"><a class="header-anchor" href="#welcome-to-my-website"><span>Welcome to my website.</span></a></h2>
+<template><div><h2 id="welcome-to-my-blog" tabindex="-1"><a class="header-anchor" href="#welcome-to-my-blog"><span>Welcome to my blog.</span></a></h2>
 <!-- more -->
-<p>Hello, my name's MUY SENGLY.</p>
+<p>Hello, everyone.</p>
 </div></template>
 
 

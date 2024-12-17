@@ -1,5 +1,5 @@
 ---
-title: Welcome Page
+title: Welcome
 icon: file
 order: 1
 author: Sengly MUY
@@ -15,9 +15,9 @@ copyright: false
 ---
 
 
-## Welcome to my website.
+## Welcome to my blog.
 
 <!-- more -->
 
-Hello, my name's MUY SENGLY.
+Hello, everyone.
 

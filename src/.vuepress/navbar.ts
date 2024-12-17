@@ -28,13 +28,13 @@ export default navbar([
     ],
   },
   {
-    text: "About",
-    link: "/others/about",
+    text: "About Me",
+    link: "/about/about",
     icon: "address-card",
   },
-  // {
-  //   text: "Demo",
-  //   link: "/others/demo",
-  //   icon: "star",
-  // },
+  {
+    text: "Demo",
+    link: "/demo/",
+    icon: "star",
+  },
 ]);

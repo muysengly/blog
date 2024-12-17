@@ -9,7 +9,7 @@
   "include": [
     "src/.vuepress/**/*.ts",
     "src/.vuepress/**/*.vue"
-  ],
+, "src/demo/002/example.vue"  ],
   "exclude": [
     "node_modules"
   ]

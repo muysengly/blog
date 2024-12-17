@@ -18,6 +18,7 @@ export default hopeTheme({
   },
 
   // Link of font icon asset
+  // keywords: "iconify", "fontawesome", "fontawesome-with-brands"
   iconAssets: "fontawesome-with-brands",
 
   // Navbar logo
@@ -42,11 +43,11 @@ export default hopeTheme({
 
   // Whether to display footer by default
   //
-  // encrypt: {
-  //   config: {
-  //     "/others/about": ["qwertyui"],
-  //   },
-  // },
+  encrypt: {
+    config: {
+      "/demo/001/005.encrypt": ["123"],
+    },
+  },
 
   // Meta related i18n config
   metaLocales: {
@@ -62,7 +63,8 @@ export default hopeTheme({
 
         // drop those pages
         if (filePathRelative.startsWith("classes/")) return false;
-        if (filePathRelative.startsWith("others/")) return false;
+        if (filePathRelative.startsWith("about/")) return false;
+        if (filePathRelative.startsWith("demo/")) return false;
 
         // drop those pages which do not use default layout
         if (frontmatter.home || frontmatter.layout) return false;

@@ -2,15 +2,48 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/index.html.js"), meta: {"t":"Home","i":"home"} }],
-  ["/others/about.html", { loader: () => import(/* webpackChunkName: "others_about.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/others/about.html.js"), meta: {"t":"My curriculum vitae (CV)","i":"address-card"} }],
-  ["/pages/20241210%20welcome%20page.html", { loader: () => import(/* webpackChunkName: "pages_20241210 welcome page.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/pages/20241210 welcome page.html.js"), meta: {"a":"Sengly MUY","d":1733788800000,"l":"December 10, 2024","c":["Welcome"],"g":["Welcome"],"u":false,"e":"<h2>Welcome to my website.</h2>\n","r":{"minutes":0.12,"words":37},"t":"Welcome Page","i":"file","O":1,"y":"a"} }],
-  ["/classes/python/001.html", { loader: () => import(/* webpackChunkName: "classes_python_001.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/001.html.js"), meta: {"t":"001","i":"file","O":1} }],
-  ["/classes/python/002.html", { loader: () => import(/* webpackChunkName: "classes_python_002.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/002.html.js"), meta: {"t":"002","i":"file","O":1} }],
+  ["/about/about.html", { loader: () => import(/* webpackChunkName: "about_about.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/about/about.html.js"), meta: {"t":"My curriculum vitae (CV)","i":"address-card"} }],
+  ["/pages/20241210%20welcome%20page.html", { loader: () => import(/* webpackChunkName: "pages_20241210 welcome page.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/pages/20241210 welcome page.html.js"), meta: {"a":"Sengly MUY","d":1733788800000,"l":"December 10, 2024","c":["Welcome"],"g":["Welcome"],"u":false,"e":"<h2>Welcome to my blog.</h2>\n","r":{"minutes":0.11,"words":32},"t":"Welcome","i":"file","O":1,"y":"a"} }],
+  ["/classes/python/001.html", { loader: () => import(/* webpackChunkName: "classes_python_001.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/001.html.js"), meta: {"t":"1. Introduction","i":"book","O":1} }],
+  ["/classes/python/002.html", { loader: () => import(/* webpackChunkName: "classes_python_002.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/002.html.js"), meta: {"t":"2. Overview","i":"book","O":2} }],
+  ["/classes/python/", { loader: () => import(/* webpackChunkName: "classes_python_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/index.html.js"), meta: {"t":"Python Class","i":"book"} }],
+  ["/demo/002/001_template.html", { loader: () => import(/* webpackChunkName: "demo_002_001_template.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/001_template.html.js"), meta: {"t":"2.1. Template","i":"star","O":1} }],
+  ["/demo/002/cherry.html", { loader: () => import(/* webpackChunkName: "demo_002_cherry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/cherry.html.js"), meta: {"t":"Cherry","i":"star"} }],
+  ["/demo/002/dragonfruit.html", { loader: () => import(/* webpackChunkName: "demo_002_dragonfruit.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/dragonfruit.html.js"), meta: {"t":"Dragon Fruit","i":"star"} }],
+  ["/demo/002/example.html", { loader: () => import(/* webpackChunkName: "demo_002_example.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/example.html.js"), meta: {"t":"example","i":"star"} }],
+  ["/demo/002/", { loader: () => import(/* webpackChunkName: "demo_002_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/index.html.js"), meta: {"t":"2. Other Demo","i":"star"} }],
+  ["/demo/002/strawberry.html", { loader: () => import(/* webpackChunkName: "demo_002_strawberry.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/strawberry.html.js"), meta: {"t":"Strawberry","i":"star"} }],
+  ["/demo/002/tomato.html", { loader: () => import(/* webpackChunkName: "demo_002_tomato.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/tomato.html.js"), meta: {"t":"Tomato","i":"star"} }],
+  ["/demo/001/001.layout.html", { loader: () => import(/* webpackChunkName: "demo_001_001.layout.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/001.layout.html.js"), meta: {"t":"1. Layout","i":"object-group","O":1} }],
+  ["/demo/001/002.markdown.html", { loader: () => import(/* webpackChunkName: "demo_001_002.markdown.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/002.markdown.html.js"), meta: {"t":"2. Markdown Enhance","i":"fab fa-markdown","O":2} }],
+  ["/demo/001/003.page.html", { loader: () => import(/* webpackChunkName: "demo_001_003.page.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/003.page.html.js"), meta: {"t":"3. Page Config","i":"file","O":3} }],
+  ["/demo/001/004.disable.html", { loader: () => import(/* webpackChunkName: "demo_001_004.disable.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/004.disable.html.js"), meta: {"t":"4. Disabling Layout","i":"gears","O":4} }],
+  ["/demo/001/005.encrypt.html", { loader: () => import(/* webpackChunkName: "demo_001_005.encrypt.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/005.encrypt.html.js"), meta: {"t":"5. Encrypt Layout","i":"lock","O":5} }],
+  ["/demo/001/006.water%20mark.html", { loader: () => import(/* webpackChunkName: "demo_001_006.water mark.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/006.water mark.html.js"), meta: {"t":"6. Water-Mark","i":"water","O":6} }],
+  ["/demo/001/007.cover.html", { loader: () => import(/* webpackChunkName: "demo_001_007.cover.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/007.cover.html.js"), meta: {"t":"7. Cover","i":"star","O":7} }],
+  ["/demo/001/008.html", { loader: () => import(/* webpackChunkName: "demo_001_008.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/008.html.js"), meta: {"t":"8. Home with features","i":"home","O":8} }],
+  ["/demo/001/009.html", { loader: () => import(/* webpackChunkName: "demo_001_009.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/009.html.js"), meta: {"t":"9. Home","i":"home","O":9} }],
+  ["/demo/001/010.html", { loader: () => import(/* webpackChunkName: "demo_001_010.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/010.html.js"), meta: {"t":"10. Image Preview","i":"image","O":10} }],
+  ["/demo/001/011.html", { loader: () => import(/* webpackChunkName: "demo_001_011.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/011.html.js"), meta: {"t":"11. Page information","i":"circle-info","O":11} }],
+  ["/demo/001/012.html", { loader: () => import(/* webpackChunkName: "demo_001_012.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/012.html.js"), meta: {"t":"12. Built-in Components","i":"puzzle-piece","O":12} }],
+  ["/demo/001/013.html", { loader: () => import(/* webpackChunkName: "demo_001_013.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/013.html.js"), meta: {"t":"13. Image","i":"image","O":13} }],
+  ["/demo/001/014.html", { loader: () => import(/* webpackChunkName: "demo_001_014.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/014.html.js"), meta: {"t":"14. Content","i":"pen","O":14} }],
+  ["/demo/001/", { loader: () => import(/* webpackChunkName: "demo_001_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/001/index.html.js"), meta: {"t":"1. Features demo","i":"star"} }],
+  ["/demo/002/002.002/1.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_1.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/1.html.js"), meta: {"t":"Apple 1","i":"star"} }],
+  ["/demo/002/002.002/2.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_2.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/2.html.js"), meta: {"t":"Apple 2","i":"star"} }],
+  ["/demo/002/002.002/3.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_3.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/3.html.js"), meta: {"t":"Apple 3","i":"star"} }],
+  ["/demo/002/002.002/4.html", { loader: () => import(/* webpackChunkName: "demo_002_002.002_4.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/4.html.js"), meta: {"t":"Apple 4","i":"star"} }],
+  ["/demo/002/002.002/", { loader: () => import(/* webpackChunkName: "demo_002_002.002_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.002/index.html.js"), meta: {"t":"2.2. Apple","i":"star"} }],
+  ["/demo/002/002.003/1.html", { loader: () => import(/* webpackChunkName: "demo_002_002.003_1.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.003/1.html.js"), meta: {"t":"Banana 1","i":"star"} }],
+  ["/demo/002/002.003/2.html", { loader: () => import(/* webpackChunkName: "demo_002_002.003_2.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.003/2.html.js"), meta: {"t":"Banana 2","i":"star"} }],
+  ["/demo/002/002.003/3.html", { loader: () => import(/* webpackChunkName: "demo_002_002.003_3.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.003/3.html.js"), meta: {"t":"Banana 3","i":"star"} }],
+  ["/demo/002/002.003/4.html", { loader: () => import(/* webpackChunkName: "demo_002_002.003_4.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.003/4.html.js"), meta: {"t":"Banana 4","i":"star"} }],
+  ["/demo/002/002.003/", { loader: () => import(/* webpackChunkName: "demo_002_002.003_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/002/002.003/index.html.js"), meta: {"t":"2.3. Banana","i":"star"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/404.html.js"), meta: {"t":""} }],
-  ["/others/", { loader: () => import(/* webpackChunkName: "others_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/others/index.html.js"), meta: {"t":"Others"} }],
+  ["/about/", { loader: () => import(/* webpackChunkName: "about_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/about/index.html.js"), meta: {"t":"About"} }],
   ["/pages/", { loader: () => import(/* webpackChunkName: "pages_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/pages/index.html.js"), meta: {"t":"Pages"} }],
-  ["/classes/python/", { loader: () => import(/* webpackChunkName: "classes_python_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/python/index.html.js"), meta: {"t":"Python"} }],
   ["/classes/", { loader: () => import(/* webpackChunkName: "classes_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/classes/index.html.js"), meta: {"t":"Classes"} }],
+  ["/demo/", { loader: () => import(/* webpackChunkName: "demo_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/demo/index.html.js"), meta: {"t":"Demo"} }],
   ["/category/", { loader: () => import(/* webpackChunkName: "category_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/category/index.html.js"), meta: {"t":"Category","I":false} }],
   ["/category/welcome/", { loader: () => import(/* webpackChunkName: "category_welcome_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/category/welcome/index.html.js"), meta: {"t":"Welcome Category","I":false} }],
   ["/tag/", { loader: () => import(/* webpackChunkName: "tag_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/tag/index.html.js"), meta: {"t":"Tag","I":false} }],
@@ -19,3 +52,20 @@ export const routes = Object.fromEntries([
   ["/star/", { loader: () => import(/* webpackChunkName: "star_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/star/index.html.js"), meta: {"t":"Star","I":false} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"C:/Users/muysengly/Desktop/[my] github/blog/src/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"t":"Timeline","I":false} }],
 ]);
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateRoutes) {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+  }
+  if (__VUE_HMR_RUNTIME__.updateRedirects) {
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ routes, redirects }) => {
+    __VUE_HMR_RUNTIME__.updateRoutes(routes)
+    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
+  })
+}

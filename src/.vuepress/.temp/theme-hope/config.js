@@ -4,6 +4,8 @@ import { defineCatalogInfoGetter } from "C:/Users/muysengly/Desktop/[my] github/
 import { h } from "vue"
 import { BlogCategory, BlogHome, BlogType, BloggerInfo, SocialMedias, Timeline, setupBlog } from "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/export.js";
 import "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/blog/styles/all.scss";
+import { GlobalEncrypt, LocalEncrypt } from "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
+import "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 
 import "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/@vuepress/helper/lib/client/styles/colors.css";
 import "C:/Users/muysengly/Desktop/[my] github/blog/node_modules/@vuepress/helper/lib/client/styles/normalize.css";
@@ -40,6 +42,8 @@ export default {
 
     app.component("BloggerInfo", BloggerInfo);
     app.component("SocialMedias", SocialMedias);
+    app.component("GlobalEncrypt", GlobalEncrypt);
+    app.component("LocalEncrypt", LocalEncrypt);
   },
   setup: () => {
     setupDarkmode();

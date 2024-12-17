@@ -14,4 +14,7 @@ export default sidebar({
   "/classes/python/": "structure",
   "/classes/typescript/": "structure",
   "/classes/wireless_communication/": "structure",
+
+
+  "/demo/": "structure",
 });
