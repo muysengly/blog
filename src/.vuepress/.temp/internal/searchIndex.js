@@ -79,51 +79,6 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "1. Introduction",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Welcome to Python Introduction",
-        "slug": "welcome-to-python-introduction",
-        "link": "#welcome-to-python-introduction",
-        "children": []
-      }
-    ],
-    "path": "/classes/python/001.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "2. Overview",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Welcome to Python Overview",
-        "slug": "welcome-to-python-overview",
-        "link": "#welcome-to-python-overview",
-        "children": []
-      }
-    ],
-    "path": "/classes/python/002.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Python Class",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Welcom to my Python class",
-        "slug": "welcom-to-my-python-class",
-        "link": "#welcom-to-my-python-class",
-        "children": []
-      }
-    ],
-    "path": "/classes/python/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "1. Layout",
     "headers": [],
     "path": "/demo/001/001.layout.html",
@@ -616,6 +571,51 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
+    "title": "1. Introduction",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Welcome to Python Introduction",
+        "slug": "welcome-to-python-introduction",
+        "link": "#welcome-to-python-introduction",
+        "children": []
+      }
+    ],
+    "path": "/classes/python/001.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "2. Overview",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Welcome to Python Overview",
+        "slug": "welcome-to-python-overview",
+        "link": "#welcome-to-python-overview",
+        "children": []
+      }
+    ],
+    "path": "/classes/python/002.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Python Class",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Welcom to my Python class",
+        "slug": "welcom-to-my-python-class",
+        "link": "#welcom-to-my-python-class",
+        "children": []
+      }
+    ],
+    "path": "/classes/python/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Apple 1",
     "headers": [
       {
@@ -835,16 +835,16 @@ export const SEARCH_INDEX = [
     "extraFields": []
   },
   {
-    "title": "Classes",
+    "title": "Demo",
     "headers": [],
-    "path": "/classes/",
+    "path": "/demo/",
     "pathLocale": "/",
     "extraFields": []
   },
   {
-    "title": "Demo",
+    "title": "Classes",
     "headers": [],
-    "path": "/demo/",
+    "path": "/classes/",
     "pathLocale": "/",
     "extraFields": []
   },

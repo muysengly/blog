@@ -1,4 +1,4 @@
-<template><div><p>Experienced in implementing algorithms of artificial intelligence (AI) and machine learning (ML) to optimize the performance of wireless networking. Published five papers in journals as the first author and actively participated in conferences. Highly skilled in data analysis, problem modeling, and ML algorithms, contributing to significant improvements in network performance and reliability. Recently graduated with a Ph.D. from Chung-Ang University (CAU), South Korea.</p>
+<template><div><p>Freshly graduated Ph.D. degree in major “AI/IoT/Big Data-based Energy New Industry” from Chung-Ang University, South Korea. Experienced in implementing artificial intelligence and machine learning algorithms to optimize the performance of wireless networking, with many papers published and actively participating in conferences. Highly skilled in analyzing data, formulating problems, and developing machine learning algorithms for improving the performances for wireless networking.</p>
 <h2 id="my-information" tabindex="-1"><a class="header-anchor" href="#my-information"><span>My information</span></a></h2>
 <table>
   <tbody>
